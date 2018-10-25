@@ -19,13 +19,15 @@ body {
 
 .header_name {
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 15px;
+    font-size: 14px;
     color: white;
     text-align: center;
-    width: 300px;
-    margin: -10 0 0 24px;
+    width: 250px;
+    height: 84px;
+    margin: -15 0 0 24px;
     float: left;
     background-color: #4aaaa5;
+    margin-left: 250px;
 }
 
 .header_link {
@@ -36,21 +38,23 @@ body {
     text-align: right;
 }
 
-.header_border {
+/* .header_border {
     clear:both;
     border-top: 1px solid #dddddd;
     width: 100%;
-    }
+    } */
 
-a:link, a:visited, a:hover{
+a:link, a:visited, a:hover a:active{
     color:grey;
-    float: right;
-    padding: 30px;
+    padding: 18px;
     font-family: Times, 'Georgia', "Times New Roman", serif;
-    font-size: 22px;
-    margin-top: -65px;
-    margin-right: 40px;
-    width: 10px;
+    font-size: 19px;
+    float: right;
+    margin-top: -60px;
+    margin-right: 200px;
+    
+
+
 
 }
 
@@ -64,10 +68,9 @@ a:link, a:visited, a:hover{
 
 .about_page {
     background-color: #ffffff;
-    width: 630px;
-    height:520px;
+    width: 960px;
     border:1px solid white;
-    margin: 30px 0 0 180px;
+    margin: 30px 0 0 250px;
     float: left;
     border: 1px solid #dddddd
 }
@@ -104,9 +107,9 @@ a:link, a:visited, a:hover{
 
 .portfolio_content {
 	background-color: #ffffff;
-	width: 630px;
+	width: 960px;
     border: 1px solid #dddddd;
-	margin: 30px 0 0 200px;
+	margin: 30px 0 0 250px;
     float: left;
 }
 
@@ -168,9 +171,9 @@ a:link, a:visited, a:hover{
 
 .contact_form {
 	background-color: #ffffff;
-	width: 630px;
+	width: 960px;
     border: 1px solid #dddddd;
-	margin: 30px 0 0 200px;
+	margin: 30px 0 0 250px;
     float: left;
 
   
@@ -188,7 +191,7 @@ a:link, a:visited, a:hover{
 	font-size: 20px;
 	display: block;
 	padding-bottom: 190px;
-	width:600px;
+	width:900px;
 }
 
 textarea {
@@ -206,7 +209,7 @@ form {
 input {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
-	width: 600px;
+	width: 900px;
 	height: 30px;
 	line-height: 20px;
 	border:1px solid #dddddd;
@@ -226,7 +229,7 @@ input[type=button], input[type=submit], input[type=reset] {
 
 /* -----------CONNECT------------- */
 
-.connect {
+/* .connect {
     background-color: #ffffff;
     width: 280px;
     height: 175px;
@@ -266,7 +269,7 @@ input[type=button], input[type=submit], input[type=reset] {
      position:relative;
      top: 3px;
 	margin-left: 2.5px;
-}
+} */
 
 /* -----------COPYRIGHT--------------*/
 
