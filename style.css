@@ -23,7 +23,7 @@ body {
     color: white;
     text-align: center;
     width: 250px;
-    height: 84px;
+    height: 77px;
     margin: -15 0 0 24px;
     float: left;
     background-color: #4aaaa5;
@@ -32,10 +32,10 @@ body {
 
 .header_link {
     background-color: #ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    height: 54px;
-    padding: 20px 125px 10px 0;
-    text-align: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	height: 36px;
+	padding: 30px 125px 10px 0;
+	text-align: right;
 }
 
 .header_border {
@@ -45,16 +45,18 @@ body {
 
     }
 
-a:link, a:visited, a:hover a:active{
+a:link, a:visited, a:hover {
     color: grey;
-    padding: 30px;
     font-family: Times, 'Georgia', "Times New Roman", serif;
-    font-size: 19px;
     float: right;
-    margin-top: -60px;
-    margin-right: 200px;
+    padding: 6.5px;
+
+    margin-top:-30px;
+    margin-right: 125px;
     
 }
+
+
 
 /* -------------ABOUT PAGE--------------- */
 
@@ -161,7 +163,7 @@ a:link, a:visited, a:hover a:active{
 	background-color: #4aaaa5;
 	color: #ffffff;
 	position: relative;
-	top: -70px;
+	top: -85px;
 	padding: 15px;
 	text-align: center;
 }
